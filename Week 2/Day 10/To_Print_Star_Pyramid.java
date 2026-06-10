@@ -9,6 +9,6 @@ public class To_Print_Star_Pyramid {
             }
             System.out.println();
         }
-    }
+    } 
     
 }

@@ -10,7 +10,7 @@ public class To_Print_Character_Pyramid {
             for(int l=1;l<=i-1;l++) {
                 System.out.print((char)('A'+i-l-1)+" ");
             }
-            System.out.println();
+            System.out.println(); 
     }
 }
 }
