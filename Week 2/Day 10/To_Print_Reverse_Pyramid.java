@@ -8,6 +8,6 @@ public class To_Print_Reverse_Pyramid {
                 System.out.print("* ");
             }
             System.out.println();
-        }
+        } 
     }
 }

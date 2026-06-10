@@ -11,6 +11,6 @@ public class To_Print_Number_Pyramid {
                 System.out.print(i-l+" ");
             }
             System.out.println();
-        }
+        } 
     }
 }
