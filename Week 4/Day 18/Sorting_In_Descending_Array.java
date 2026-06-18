@@ -1,5 +1,5 @@
 import java.util.*;
-public class selection_sort {
+public class Sorting_In_Descending_Array {
     public static void main(String args[]){
         Scanner in= new Scanner(System.in);
         System.out.println("Enter the size of the array ");
@@ -16,17 +16,17 @@ public class selection_sort {
             else
             System.out.println(a[i]);
         }
-        int temp=0;;
+        int temp=0;
         for(int i=0;i<n-1;i++){
-            for(int j=i+1;j<n;j++){
-                if(a[j]<a[i]){
-                    temp=a[j];
-                    a[j]=a[j];
+            for(int j=0;j<n-i-1;j++){
+                if(a[j+1]>a[j]){
+                    temp=a[j+1];
+                    a[j+1]=a[j];
                     a[j]=temp;
                 }
             }
         }
-        System.out.println("The sorted array is ");
+        System.out.println("The sorted array in desecending order is ");
         for(int i=0;i<n;i++) {
             if(i!=n-1)
             System.out.print(a[i]+",");
