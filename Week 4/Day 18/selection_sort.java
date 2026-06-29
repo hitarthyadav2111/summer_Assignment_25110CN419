@@ -21,8 +21,8 @@ public class selection_sort {
             for(int j=i+1;j<n;j++){
                 if(a[j]<a[i]){
                     temp=a[j];
-                    a[j]=a[j];
-                    a[j]=temp;
+                    a[j]=a[i];
+                    a[i]=temp;
                 }
             }
         }
